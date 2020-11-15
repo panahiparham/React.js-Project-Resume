@@ -21,29 +21,56 @@
                 {
                     "type": "card",
                     "content": {
-                        "image": "/url",
+                        "image": "/images/python.webp",
                         "title": "python"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/url",
+                        "image": "/images/cpp.png",
                         "title": "C/C++"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/url",
-                        "title": "Machine learning"
+                        "image": "/images/sklearn.png",
+                        "title": "Scikit Learn"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/url",
-                        "title": "Computer Graphics"
+                        "image": "/images/opengl.png",
+                        "title": "OpenGL"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/images/html.png",
+                        "title": "HTML"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/images/css.png",
+                        "title": "CSS"
+                    }
+                },                {
+                    "type": "card",
+                    "content": {
+                        "image": "/images/js.webp",
+                        "title": "JavaScript"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/images/react.png",
+                        "title": "React.js"
                     }
                 }
 
