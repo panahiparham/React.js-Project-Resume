@@ -1,0 +1,53 @@
+{
+    "title": "Hello I'm Parham!",
+    "subtitle": "CS Student | Working on Machine Learning and 3D Graphics",
+    "links": {
+        "github": "https://github.com/panahiparham",
+        "Email": "mailto:panahiparham@gmail.com"
+    },
+    "sections": [
+        {
+            "title": "Research Interests",
+            "items": [
+                {
+                    "type": "p",
+                    "content": "My main areas of interest are Machine learning and Computer Graphics. I'm actively learning about these two subjects and would like to explore ways to use ML in graphics and game development."
+                }
+            ]
+        },
+        {
+            "title": "Technical Skills",
+            "items": [
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/url",
+                        "title": "python"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/url",
+                        "title": "C/C++"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/url",
+                        "title": "Machine learning"
+                    }
+                },
+                {
+                    "type": "card",
+                    "content": {
+                        "image": "/url",
+                        "title": "Computer Graphics"
+                    }
+                }
+
+            ]
+        }
+    ]
+}

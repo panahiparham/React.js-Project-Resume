@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-logo {
@@ -35,4 +36,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.home-page {
+
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  ". . . . ."
+  ". . title . ."
+  ". subtitle subtitle subtitle ."
+  ". . links . ."
+  ". . . . .";
+
+  gap: 15px 10px;
+
+  justify-content: center;   
+  align-content: center;    
+
+  justify-items: center;
+  align-items: center ;
+}
+
+.title {
+  grid-area: title;
+}
+
+.sub-title {
+  grid-area: subtitle;
+}
+
+.contact-links {
+  grid-area: links;
 }
