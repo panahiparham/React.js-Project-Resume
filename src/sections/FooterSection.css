@@ -1,0 +1,13 @@
+/* footer */
+
+footer {
+    grid-area: footer;
+    background-color: rgb(161, 164, 167);
+    color: #ffffff;
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+    padding-right: 0.5rem;
+  
+    text-align: right;
+  }
+ 

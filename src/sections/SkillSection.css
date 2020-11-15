@@ -1,0 +1,38 @@
+
+/* skill-section */
+.skill-section {
+    grid-area: skills;
+  
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-areas:
+      ". title ."
+      ". items .";
+  
+    gap: 5vh ;
+    height: auto;
+    background-color: #e9f4fa;  
+    align-content: start;
+  
+  }
+  
+  
+  .skill-section > h3 {
+    grid-area: title;
+    text-align: center;
+    font-size: x-large;
+  
+    padding-top: 10vh;
+  }
+  
+  .skill-section > .skills-wrapper {
+    grid-area: items;
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    
+    gap: 2rem;
+    align-items: center;
+  
+    padding-bottom: 20vh;
+  }

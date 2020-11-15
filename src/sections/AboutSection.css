@@ -1,0 +1,29 @@
+/* about-section */
+.about-section {
+    grid-area: about;
+  
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-areas:
+      ". title ."
+      ". p .";
+  
+    gap: 10px;
+    height: 100vh;
+    background-color: #7dd190;
+    align-content: center;
+  }
+  
+  .about-section > h3 {
+    grid-area: title;
+    text-align: left;
+    font-size: x-large;
+  }
+  
+  .about-section > p {
+    grid-area: p;
+    text-align: left;
+    font-size: x-large;
+  }
+  
+  

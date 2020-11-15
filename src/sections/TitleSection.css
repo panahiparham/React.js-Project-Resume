@@ -1,0 +1,34 @@
+
+/* title-section */
+.title-section {
+    grid-area: homepage;
+  
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      " . title . "
+      " subtitle subtitle subtitle "
+      " . links . ";
+  
+    align-content: center;
+    height: 100vh;
+    background-color: #e9f4fa;
+    font-size: large;
+  }
+  
+  .title-section > h1 {
+    grid-area: title;
+    height: 20vh;
+  }
+  
+  .title-section > h2 {
+    grid-area: subtitle;
+    height: 20vh;
+  }
+  
+  .title-section > .contact-links {
+    grid-area: links;
+  }
+  
+  
