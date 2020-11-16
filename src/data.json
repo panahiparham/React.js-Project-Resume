@@ -22,55 +22,55 @@
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/python.webp",
+                        "image": "images/python.webp",
                         "title": "python"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/cpp.png",
+                        "image": "images/cpp.png",
                         "title": "C/C++"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/sklearn.png",
+                        "image": "images/sklearn.png",
                         "title": "Scikit Learn"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/opengl.png",
+                        "image": "images/opengl.png",
                         "title": "OpenGL"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/html.png",
+                        "image": "images/html.png",
                         "title": "HTML"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/css.png",
+                        "image": "images/css.png",
                         "title": "CSS"
                     }
                 },                {
                     "type": "card",
                     "content": {
-                        "image": "/images/js.webp",
+                        "image": "images/js.webp",
                         "title": "JavaScript"
                     }
                 },
                 {
                     "type": "card",
                     "content": {
-                        "image": "/images/react.png",
+                        "image": "images/react.png",
                         "title": "React.js"
                     }
                 }
