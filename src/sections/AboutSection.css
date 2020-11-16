@@ -6,11 +6,12 @@
     grid-template-columns: 1fr 10fr 1fr;
     grid-template-areas:
       ". title ."
-      ". p .";
+      ". p ."
+      ". down .";
   
     gap: 10px;
     height: 100vh;
-    background-color: #7dd190;
+    background-color: var(--second-in-color);
     align-content: center;
   }
   

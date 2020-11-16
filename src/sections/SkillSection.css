@@ -1,38 +1,51 @@
-
 /* skill-section */
 .skill-section {
-    grid-area: skills;
-  
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-    grid-template-areas:
-      ". title ."
-      ". items .";
-  
-    gap: 5vh ;
-    height: auto;
-    background-color: #e9f4fa;  
-    align-content: start;
-  
-  }
-  
-  
-  .skill-section > h3 {
-    grid-area: title;
-    text-align: center;
-    font-size: x-large;
-  
-    padding-top: 10vh;
-  }
-  
-  .skill-section > .skills-wrapper {
-    grid-area: items;
-  
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    
-    gap: 2rem;
-    align-items: center;
-  
-    padding-bottom: 20vh;
-  }
+  grid-area: skills;
+
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-areas:
+    ". title ."
+    ". items ."
+    ". projects-title ."
+    ". projects . "
+    ". down .";
+
+  gap: 5vh;
+  height: auto;
+  background-color: var(--first-in-color);
+  align-content: start;
+}
+
+.skill-section > .skill-title {
+  grid-area: title;
+  text-align: center;
+  font-size: x-large;
+
+  padding-top: 5vh;
+}
+
+.skill-section > .skills-wrapper {
+  grid-area: items;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+
+  gap: 2rem;
+  align-items: center;
+
+  padding-bottom: 3vh;
+}
+
+.skill-section > .projects-title {
+  grid-area: projects-title;
+  text-align: center;
+  font-size: x-large;
+
+  padding-top: 3vh;
+}
+
+.skill-section > .projects-wrapper {
+  grid-area: projects;
+  padding-bottom: 1vh;
+}

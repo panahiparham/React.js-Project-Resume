@@ -1,0 +1,33 @@
+/* navigation */
+
+.nav {
+  position: absolute;
+  height: 0px;
+
+  width: 100%;
+  margin: auto;
+}
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.color-changer {
+  grid-area: color;
+}
+
+.nav > .navigation {
+  position: absolute;
+  width: 30vw;
+
+  /* border: 5px solid black; */
+  transform: translate(15vw);
+  padding: 5px;
+}
+
+
+.nav-option {
+    cursor: pointer;
+}

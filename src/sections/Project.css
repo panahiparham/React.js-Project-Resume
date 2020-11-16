@@ -1,0 +1,56 @@
+.project a:link, .project a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem;
+    border-radius: 1rem;
+  }
+  
+  .project a:hover, .project a:active {
+    background-color: green;
+    color: white;
+  }
+
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "title description";
+
+    gap: 1rem;
+    background: #fcfffb;
+    border-radius: 1rem;
+    box-shadow: 3px 3px rgb(168, 24, 24);
+
+    margin: 1rem;
+
+}
+
+.project-title{
+    grid-area: title;
+}
+
+
+.project-description{
+    grid-area: description;
+    font-size: large;
+}
+
+  
+@media (max-width: 600px) {
+    .project {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "title"
+        "description";
+        align-content: center;
+}
+
+}
+  
+

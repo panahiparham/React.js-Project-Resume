@@ -3,7 +3,8 @@
     "subtitle": "CS Student | Working on Machine Learning and 3D Graphics",
     "links": {
         "github": "https://github.com/panahiparham",
-        "Email": "mailto:panahiparham@gmail.com"
+        "Email": "mailto:panahiparham@gmail.com",
+        "LinkedIn": "https://www.linkedin.com/in/parham-panahi-216941175/"
     },
     "sections": [
         {
@@ -75,6 +76,33 @@
                 }
 
             ]
+        },
+        {
+            "title": "Projects",
+            "items": [
+                {
+                    "type": "field",
+                    "content": {
+                        "description": "Predicting Laptop Prices with machine learning. this project uses web scapring / databases / machine learning.",
+                        "title": "laptop price prediction",
+                        "link": "https://github.com/panahiparham/laptop_price_prediction_digikala"
+
+                    }
+                },
+                {
+                    "type": "field",
+                    "content": {
+                        "description": "A series of Modern OpenGL examples done with Python.",
+                        "title": "OpenGL Examples",
+                        "link": "https://github.com/panahiparham/opengl-python-examples"
+
+                    }
+                }
+            ]
         }
-    ]
+    ],
+    "icons":{
+        "down": "images/down.png",
+        "up": "images/up.png"
+    }
 }

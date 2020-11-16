@@ -1,27 +1,47 @@
 /* Container */
+
+
 .container {
-    background-color: #9dddff;
-    display: grid;
-    grid-template-columns: 1fr;
+ 
+  background-color: var(--main-out-color);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "homeArrow"
+    "homepage"
+    "aboutArrow"
+    "about"
+    "skillsArrow"
+    "skills"
+    "footer";
+
+  align-content: center;
+}
+
+@media (min-width: 900px) {
+  .container {
+    grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas:
-      "homepage"
-      "about"
-      "skills"
-      "footer";
-  
+      " . homeArrow ."
+      " . homepage ."
+      " . aboutArrow ."
+      " . about ."
+      " . skillsArrow ."
+      " . skills ."
+      " . footer .";
+
     align-content: center;
   }
-  
-  @media (min-width: 900px) {
-    .container {
-      grid-template-columns: 1fr 4fr 1fr;
-      grid-template-areas:
-        ". homepage ."
-        ".  about ."
-        ". skills ."
-        ". footer .";
-      align-content: center;
-    }
-  
-  }
-  
+}
+
+.homeArrow {
+  grid-area: homeArrow;
+}
+
+.aboutArrow {
+  grid-area: aboutArrow;
+}
+
+.skillsArrow {
+  grid-area: skillsArrow;
+}
