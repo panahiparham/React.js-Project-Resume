@@ -3,26 +3,51 @@
   grid-area: homepage;
   height: 100vh;
   display: grid;
-  grid-template-columns: 10rem 3fr 10rem;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
   grid-template-areas:
-  " . . nav"
-    " . title . "
-    " subtitle subtitle subtitle "
-    " . links . "
-    " . down .";
+    " .  title title title . "
+    " . about .  skills ."
+    " . subtitle subtitle subtitle . "
+    " . links links links . "
+    " . . down night .";
+
 
   align-content: center;
-  justify-content: stretch;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
   height: 100vh;
   background-color: var(--first-in-color);
 
   font-size: large;
 }
+/* 
+@media (min-width: 900px) {
+  .title-section {
+    grid-template-areas:
+      " .  title title title . "
+      " . about .  skills ."
+      " . subtitle subtitle subtitle . "
+      " . links links links . "
+      " . . down night night";
+
+  }
+} */
+
+
+.title-section > .about-btn {
+  grid-area: about;
+}
+
+.title-section > .skills-btn {
+  grid-area: skills;
+}
 
 .title-section > h1 {
   grid-area: title;
   height: 20vh;
+  margin-top: 10vh;
 }
 
 .title-section > h2 {
@@ -33,4 +58,10 @@
 .title-section > .contact-links {
   grid-area: links;
 }
+
+
+.title-section > .night-mode {
+  grid-area: night;
+}
+
 

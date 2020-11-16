@@ -1,0 +1,17 @@
+.nav-btn {
+    cursor: pointer;
+    font-size:larger;
+    /* margin: 1rem;
+    background-color: khaki; */
+
+    width: auto;
+    height:40px;
+}
+
+  .nav-btn:hover {
+    background-color: green;
+    color: white;
+    border-radius: 0.4rem;
+    margin: 0.1rem;
+
+  }
